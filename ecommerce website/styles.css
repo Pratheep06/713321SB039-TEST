@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.product {
+    width: 300px;
+    margin-bottom: 2rem;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+}
+
+.product img {
+    background-image: url();
+    max-width: 100%;
+    height: auto;
+}
+
+.product h2 {
+    font-size: 1.5rem;
+}
+
+.product p {
+    font-size: 1rem;
+    color: #666;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    padding-top: 10px;
+    background-image: url();
+    color:black;
+    border-style: solid;
+    background-color: blanchedalmond;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:grey;
+    text-align: center;
+    padding: 10px;
+}
